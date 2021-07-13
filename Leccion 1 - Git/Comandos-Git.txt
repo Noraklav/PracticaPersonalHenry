@@ -1,0 +1,71 @@
+En consola, se ve así:
+agust@DESKTOP-E5C73TC MINGW64 
+$ [Comandos a ingresar]
+
+- - - - - - - - - - - - - - - - - - - - -
+comando: Descripcion
+    $Como se escribe
+    Resultado que da
+- - - - - - - - - - - - - - - - - - - - -
+
+pwd: Me muestra donde estoy parado
+    $pwd (Enter)
+    /c/Henry Academia/Modulo 0 - Prep/Git-Leccion1
+- - - - - - - - - -
+date: Muestra fecha, dia y hora
+    $date (Enter)
+    Fri Jun 25 10:11:41     2021
+- - - - - - - - - -
+ls: Muestra las carpetas que hay en el directorio
+(Esta en /c/Henry Academia/Modulo 0 - Prep)
+    $ls (Enter)
+    Git-Leccion1/  Henry-test/
+ 
+ls -la: Muestra los archivos visibles y tambien los ocultos
+    $ls -la
+- - - - - - - - - -
+clear: Limpia la terminal
+    $clear (Enter)
+    * Borra todo lo que esta escrito*
+- - - - - - - - - -
+cd: Te permite moverte entre carpetas
+    $cd (carpeta a la que queres ir)
+- - - - - - - - - -
+mkdir: Crea un directorio nuevo (Carpeta)
+(/c/Henry Academia/Modulo 0 - Prep/Git-Leccion1)
+    $ ls
+    Comandos-Git.txt
+
+    $ mkdir mkdir_new_directory
+    Comandos-Git.txt  mkdir_new_directory/
+- - - - - - - - - -
+rm: Remover archivos
+    $rm (Nombre del archivo)
+
+rmdir: Remover carpetas
+    $rmdir (Nombre de la carpeta)
+
+rm -rf: Forzar a borrar cualquier cosa
+    $rm -rf (Nombre del archivo/carpeta)
+- - - - - - - - - -
+git init: Se inicializa un repositorio
+- - - - - - - - - -
+Aplicar cambios a repositorio
+1- git add: Agrega cambios a los archivos
+    $git add nombre_archivo
+
+2- git commit: Comenta que cambios se le agregaron
+    $git commit -m "Add two files" <- Ejemplo
+
+3- git push
+    $git push
+- - - - - - - - - -
+git log: Muestra el historial de cambios
+    $git log
+
+git pull: Atualiza un Branch
+- - - - - - - - - -
+    Sincronizar con el servidor
+
+git push origin master
+    $git push origin master
