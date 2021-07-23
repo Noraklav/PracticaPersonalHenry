@@ -131,3 +131,27 @@ console.log(newDC2);
 // TODO # # # # # # # # # # # # # # # # # # # #
 //* .reduce()
 
+let num = [1,3,5,7,9]
+
+//* Sin cb
+let suma=0;
+for(let x=0;x<num.length;x++){
+    suma = suma + num[x];
+}
+
+//* Con cb
+let sumaReduce = num.reduce(function(acumulador, elemento){
+    return acumulador + elemento;
+})
+
+console.log(suma);
+console.log(sumaReduce);
+
+//*? acumulador = 0
+//*? return 0+1 = 1
+//*? acumulador = 1
+//*? return 1+3 = 4
+//*? acumulador = 4
+//*? return 4+5 = 9
+//*? acumulador = 9
+//*? Y asi con todos los elementos del array
