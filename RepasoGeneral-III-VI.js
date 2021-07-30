@@ -289,8 +289,8 @@ function agregarStringInvertida() {
 }
 
 function crearInstanciaPersona(nombre, apellido, edad, dir) {
-  const claudia = new Persona('Claudia', 'Leyes', 40, 'Que Te Importa 743');
-  return claudia;
+  const pepe = new Persona('Pepe', 'Mijica', 63, 'Que Te Importa 743');
+  return pepe;
 }
   
 function agregarMetodo() {
